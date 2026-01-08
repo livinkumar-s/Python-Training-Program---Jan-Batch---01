@@ -1,0 +1,40 @@
+Python:
+-------------
+>> It is a high-level, Interpretted, general purpose programming language.
+
+              Compilation                    Interpretation
+Human Written Code  --->  Byte Code (000 111000) ----> Machine Code
+(The actual code)
+
+Compilation ---> it happens in one go
+Interpretation --> Happens line by line
+
+GUI, CLI (terminal--> cmd, powershell, bash.....)
+
+Command to Execute a python file ---> python filename.py
+
+Print Function 
+-----------------
+>> It is used to show a data at the output.
+Ex: print(data)
+
+Python Syntax 
+-------------
+>>> Case-sensitive. (a is not A)
+>>> Indentation matters. (whitespace)(to define block)
+
+Comments ---> defines the code, increases readability. it will not be executed.
+
+Single line --> #
+Multiline Comment ---> ''' '''
+
+Variable 
+----------
+>> It is a named container that stores a data.
+varName=value
+
+Naming Rules 
+--------------
+>> Variable name can contain lettrs, numbers and -,_
+>> cannot start with number.
+>> should not use reserved keyword.
