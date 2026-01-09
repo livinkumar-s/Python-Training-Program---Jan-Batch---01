@@ -18,6 +18,12 @@ Print Function
 >> It is used to show a data at the output.
 Ex: print(data)
 
+Input Function 
+-----------------
+>> It is used to prompt input from user.
+input()
+>> It will always return a String
+
 Python Syntax 
 -------------
 >>> Case-sensitive. (a is not A)
@@ -38,3 +44,22 @@ Naming Rules
 >> Variable name can contain lettrs, numbers and -,_
 >> cannot start with number.
 >> should not use reserved keyword.
+
+Datatypes
+----------
+To Find datatype an object ---> type(obj)
+
+Integer ---> Whole Number (0,1,-1,-2)
+Float ---> Decimal Number (0.0, 1.90)
+String ---> Sequence of characters enclosed in either '' or "".
+Ex: 'Hello', "World"
+Concatination ---> str1+str2 
+
+Boolean ---> True/False
+
+Type casting
+-------------
+int(obj) --> converts this obj into int 
+str(obj)
+float(obj)
+bool(obj)
