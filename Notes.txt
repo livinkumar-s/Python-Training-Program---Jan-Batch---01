@@ -46,7 +46,7 @@ Naming Rules
 >> should not use reserved keyword.
 
 Datatypes
-----------
+---------- 
 To Find datatype an object ---> type(obj)
 
 Integer ---> Whole Number (0,1,-1,-2)
@@ -63,3 +63,75 @@ int(obj) --> converts this obj into int
 str(obj)
 float(obj)
 bool(obj)
+
+2's comp=1's comp+1
+
+1's comp--> reversing bits 
+
+Binary Addition
+-----------------
+00-->0
+01, 10-->1
+11 --> 10
+111 --> 11
+
+Operators 
+-----------
+>> it is a symbol or kyword used to perform an Operation on values (operands)
+
+4 + 4 = 8
+
+Arithmetic Operators
+----------------------
+>> Used for math calculations.
+
+Addition ---> +
+Subtraction --> -
+Multiplication --> *
+Division ---> /
+Floor Div --> //
+Modulus --> %(4%5 --> 0*5 --> 0-->4)
+Expo --> **
+
+BODMAD ---> Bracket, Of, Div, Mul, Add, Sub
+
+Comparison Operators (Boolean)
+--------------------
+== equal
+!= not equal
+< less than
+> greater 
+<= less than or equal
+>= greater than or equal
+
+Logical Operators(Boolean)
+-------------------
+And ---> and --> True --> when both are True. False --> otherwise
+Or --> or --> True ---> anyone is True
+Not --> inverts the value
+
+Assignment Operators 
+----------------------
+>> used to assign values to variables 
+
+= --> assign
++= add and assign
+-= --> sub and assign
+*= --> mul and assign 
+/= --> div and assign
+//= --> floor div and assign
+%= --> mod and assign
+** --> expo and assign
+
+Bitwise Operators
+-------------------
+AND --> & --> it will perform and operation with bits.
+OR --> | --> it will perform or operation with bits.
+Not ---> ~ --> it will invert the bits(+-->-). (~n--> -(n+1))
+Ex-Or --> ^ --> it will perform ex-or operation with bits.
+Left shift --> << --> going to move the bites towards left.
+Right shift --> >> --> going to move the bites towards right.
+
+Membership 
+
+Identity
