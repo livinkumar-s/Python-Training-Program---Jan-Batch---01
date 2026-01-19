@@ -135,3 +135,40 @@ Right shift --> >> --> going to move the bites towards right.
 Membership 
 
 Identity
+
+Control Flow 
+--------------
+Conditional Clause -->(if , else) (choose a block from multiple blocks)
+
+if 
+----
+syntax 
+--------
+if cond:
+    block of code
+
+True ---> code will get executed. False --> ignored
+
+elif
+------
+syntax 
+--------
+elif cond:
+    block of code
+
+True ---> code will get executed. False --> ignored
+
+else 
+------
+else:
+    block of code
+
+If cond False --> code will be executed. True --> ignored
+
+Nested If 
+---------
+if cond1:
+    if cond2:
+        block of code
+
+Loops ---> perform samtask over and over again 
