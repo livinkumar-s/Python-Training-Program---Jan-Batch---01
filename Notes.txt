@@ -136,6 +136,15 @@ Membership
 
 Identity
 
+
+Sequence or Iterable Object 
+----------------------------
+len(seq)  --> find the length
+>>If an object can return its members one by one.
+Ex: String... "Hello"--> "H","e","l"
+
+Index number ---> a="Hello" --> obj[ind] --> a[3]
+
 Control Flow 
 --------------
 Conditional Clause -->(if , else) (choose a block from multiple blocks)
@@ -171,4 +180,32 @@ if cond1:
     if cond2:
         block of code
 
-Loops ---> perform samtask over and over again 
+Loops ---> perform same task over and over again 
+--------------------------------------------------
+
+While (Condition based loop) (no of iteration is not known)
+-------
+Syntax
+---------
+while cond:
+    block of code
+
+as long as the condition stays True, block of code will get executed over and over again.
+
+For (It is a Sequence Based loop) (No of iteration is known) (to iterate over Sequence)
+-----
+syntax:
+---------
+for varName in Sequence:
+    block of code
+
+Range ---> To create a temporary Sequence.
+range(len) --> range(5) ---> [0,1,2,3,4]
+range(start, end) --> range(5,15) --> [5,6,7,8,9...14]
+range(start, end, step) --> range(3,30,3) --> [3,6,9,12..27]
+
+Control Statements of Loops 
+-----------------------------
+break ---> it will stop the loop.
+continue ---> it will skip the current iteration.
+pass ---> placeholder Statements that states "do noithing"
