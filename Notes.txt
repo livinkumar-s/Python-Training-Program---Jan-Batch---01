@@ -141,9 +141,19 @@ Sequence or Iterable Object
 ----------------------------
 len(seq)  --> find the length
 >>If an object can return its members one by one.
-Ex: String... "Hello"--> "H","e","l"
+Ex: String, List, Tuple, Set, Dict....
 
+Indexing
+---------
 Index number ---> a="Hello" --> obj[ind] --> a[3]
+negative indexing --> -1,-2,-3.....
+
+Slicing(will create a new Sequence)
+-------
+seq[start:]
+seq[:end]
+seq[start:end]
+seq[::final]
 
 Control Flow 
 --------------
@@ -209,3 +219,53 @@ Control Statements of Loops
 break ---> it will stop the loop.
 continue ---> it will skip the current iteration.
 pass ---> placeholder Statements that states "do noithing"
+
+Datastructures
+----------------
+List 
+------
+Syntax --> [ele1, ele2, ele3....]
+>> Sequence
+>> Mutable
+>>Duplicates are allowed in it
+
+In built methods of list 
+--------------------------
+.append(ele) --> to add an element at the end
+.extend(seq) --> to add multiple elements
+.insert(pos, ele)
+
+.remove(ele) --> removing an element by specifying it.(1st occur)
+.pop(ind) --> by specifying the pos
+.pop() --> removes last element
+
+.index(ele) --> it finds index of an element
+.count(ele)
+
+.sort()
+.reverse()
+
+Tuple 
+-------
+Syntax --> (ele1, ele2, ele3....)
+>> Sequence
+>> Immuutable
+>> Duplicates are allowed in it
+
+In built 
+---------
+.index(ele) --> it finds index of an element
+.count(ele)
+
+Packing/Unpacking 
+--------------------
+Packing---> person=("Hendry",45)
+name=person[0]
+age=person[1]
+Unpacking ---> name,age=person
+
+Set 
+----
+
+Dict 
+----
