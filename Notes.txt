@@ -52,8 +52,36 @@ To Find datatype an object ---> type(obj)
 Integer ---> Whole Number (0,1,-1,-2)
 Float ---> Decimal Number (0.0, 1.90)
 String ---> Sequence of characters enclosed in either '' or "".
+Immutable
 Ex: 'Hello', "World"
+
+Operations 
+---------------
 Concatination ---> str1+str2 
+Repetition ---> str*num
+
+Formatted String 
+----------------
+>> f" {var1}  {var2}  "
+
+In built Methods 
+------------------
+.upper()
+.lower()
+.title()
+.capitalize()
+
+count(subStr)
+find(subStr)
+
+.isalpha()
+.isdigit()
+.isalnum()
+
+.split(break) --> str to list
+.join(iterObj)
+
+.strip()
 
 Boolean ---> True/False
 
@@ -137,9 +165,15 @@ Ex-Or --> ^ --> it will perform ex-or operation with bits.
 Left shift --> << --> going to move the bites towards left.
 Right shift --> >> --> going to move the bites towards right.
 
-Membership 
+Membership (Boolean values)
+-----------
+in, not in
 
 Identity
+---------
+to check whether two variables refer to the same object.
+
+is, is not
 
 
 Sequence or Iterable Object 
