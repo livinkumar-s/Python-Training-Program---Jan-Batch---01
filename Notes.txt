@@ -64,6 +64,11 @@ str(obj)
 float(obj)
 bool(obj)
 
+list(iterObject)
+tuple()
+set()
+dict()
+
 2's comp=1's comp+1
 
 1's comp--> reversing bits 
@@ -266,6 +271,31 @@ Unpacking ---> name,age=person
 
 Set 
 ----
+Syntax --> {ele1, ele2, ele3....}
+>> Sequence
+>> Mutable
+>> Duplicates are not allowed in it
+
+In built methods 
+-----------------
+add 
+remove
+clear 
+union(set)
+intersection(set)
+difference(set)
+
 
 Dict 
 ----
+Syntax --> {key1:val1,key2:val2.......}
+>>Iterable 
+>>Mutable
+>>key should be unique 
+
+Inbuilt Methods 
+-----------------
+.keys()
+.values()
+.items()
+.pop(key)
