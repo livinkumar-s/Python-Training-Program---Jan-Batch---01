@@ -299,3 +299,50 @@ Inbuilt Methods
 .values()
 .items()
 .pop(key)
+
+
+Functions 
+----------
+It is a block of reusable code that performs a specific task.
+
+In built Functions 
+--------------------
+>> Ex: print, input.....
+
+User-defined Functions 
+----------------------
+Syntax:
+--------
+def fnName():
+    block of code
+
+Calling or Invoking --> fnName()
+
+Parameters and Arguments 
+--------------------------
+p --> variables that you create inside a function without assigning value.
+a --> the values you are passing while invoking the function
+
+Types of Arguments 
+-------------------
+Positional Arguments 
+--------------------
+>>Order matters
+
+Named Arguments 
+-----------------
+>> assing values by mentioning the parmeter.
+
+Default Argument 
+----------------
+>> giving default value for parameters.
+
+Variable-length Parameters 
+------------------------------
+>>when the number of arguments is not known.
+*a
+
+Return Keyword 
+---------------
+>>stop a function 
+>>return a value to the caller
