@@ -2,7 +2,7 @@ Python:
 -------------
 >> It is a high-level, Interpretted, general purpose programming language.
 
-              Compilation                    Interpretation
+        Compilation(syntax errors)        Interpretation(Runtime errors)
 Human Written Code  --->  Byte Code (000 111000) ----> Machine Code
 (The actual code)
 
@@ -380,3 +380,47 @@ Return Keyword
 ---------------
 >>stop a function 
 >>return a value to the caller
+
+File Handling 
+----------------
+>> It allows a python program to Read, write, append, delete data in a file.
+
+Opening File in python ---> open("addr","mode")
+To close a file ---> .close()
+
+To read the whole content ---> .read()
+To read the content line by line ---> .readline()
+To read the content line by line at once---> .readlines()
+
+To write content into a file ---> .write(content)
+
+Modes 
+------
+Read --> 'r'
+Write --> 'w'
+Append --> 'a'
+Create--->'x'
+
+Error Handling 
+----------------
+>> It is a problem in python program that stops the normal execution.
+
+Syntax Errors 
+--------------
+Occurs when python cannot understand the code structure.
+
+Ex: SyntaxError, IndentationError
+
+Runtime Errors (Exception)
+---------------
+>>Occurs while program is running, after syntax is correct
+Ex: NameError,TypeError,ValueError, ZeroDivisionError.....
+
+Exception Handling 
+-------------------
+try:
+    block of code 
+except errName:
+    handling block 
+finally:
+    block of code
