@@ -424,3 +424,27 @@ except errName:
     handling block 
 finally:
     block of code
+
+
+Object Oriented Programming 
+----------------------------
+>> It is a pattern built using class, objects used to organize the code.
+
+Mobile ---> displayWidth, Capacity ---> Power on,power off
+Bottle ---> width, radius --> opening, closing
+
+Blue print ----> multiple bottles
+
+
+In Programming 
+--------------
+Object ---> Attributes --> Methods(Function)
+Class ---> obj1, obj2, obj3...
+
+class
+------
+syntax 
+--------
+class clsName:
+    attributes 
+    methods
